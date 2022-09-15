@@ -53,7 +53,13 @@ equalButton.addEventListener("click", e => {
             result = Number(num1) * Number(num2);
         }
         else if (op === '÷'){
-            result = Number(num1) / Number(num2);
+            if (num2 === '0'){
+                result = 'undef';
+            }
+            else {
+                result = Number(num1) / Number(num2);
+            }
+
         }
     display.textContent = result;
     }
