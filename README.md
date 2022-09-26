@@ -1,5 +1,5 @@
 # Calculator-Extension
-A Calculator Chrome Extension
+A Calculator Chrome Extension that can perform quick and simple calculations
 
 ## Author information
 Muhammad Abdul Mannan (corresponding author and repository maintainer) <br />
